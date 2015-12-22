@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	width: 1000px;
+ 	margin: 0 auto;
+}
+#nav{
+	height: 70px;
+	width: 1000px;
+}
+#logo {
+	display: block;
+	height: 70px;
+	float: left;
+	width: 200px;
+}
+#list li {
+	list-style: none;
+	float: left;
+	height: 70px;
+	width: 80px;
+	padding: 0 15px;
+	list-style: none;
+	line-height: 70px;
+	text-align: center;
+}
+#list li a {
+	text-decoration: none;
+	color: #000;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	height: 70px;
+	display: block;
+}
+#list li a:hover, #list li a:visited {
+	background: #BB3636;
+
+}
+/*.clear{clear: both;}*/
+.banner{
+	height: 314px;
+	width: 1000px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+#scroll{
+	margin: 10px 0;
+	height: 40px;
+}
+.scr_left,.scr_right {
+	float: left;
+	height: 40px;
+}
+.scr_left{
+	width: 150px;
+	text-align: center;
+}
+.scr_right{
+	width: 850px;
+}
+.scr_left h1,.scr_right p {
+	font-size: 18px;
+	color: #FFF;
+	background: #BB3636;
+	/*width: 150px;*/
+	/*height: 40px;*/
+	line-height: 40px;
+}
+.scr_right p{
+	background: #777;
+	/*height: 40px;*/
+ 	/*text-align: center;*/
+	padding-left: 10px;
+}
+#course {
+	height: 150px;
+	margin-bottom: 10px;
+ }
+ #course img{
+ 	width: 320px;
+ }
+ .boot,.example,.js {
+	width: 310px;
+	height: 130px;
+	float: left;
+}
+.example{
+	padding: 0 30px;
+}
+#course p{
+	text-align: center;
+	/*margin: 10px 0;*/
+}
+#course a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+}
+#active {
+	height: 330px;
+}
+
+#news,#hotact,#contant{
+	width: 310px;
+	float: left;
+	height: 330px;
+}
+#hotact{
+	padding: 0 30px;
+}
+section {
+	height: 80px;
+	margin-top: 10px;
+}
+h2 {
+	background: #BB3636;
+	width: 310px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.news_cont {
+	width: 320px;
+	/*height: 400px;*/
+	/*background: #777;*/
+}
+.text {
+	padding-left: 10px;
+	margin-left: 10px;
+	float: left;
+	width: 240px;
+}
+h3 {
+	background: #BB3636;
+	width: 45px;
+	height: 60px;
+	/*margin: 10px 0;*/
+	padding-top: 10px;
+	text-align: center;
+	border-radius: 5px;
+	float: left;
+}
+h4 {
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.text p {
+	padding-top: 18px;
+}
+.act_content img{
+	height: 160px;
+	width: 280px;
+}
+.act_content {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.con_tant {
+	margin-top: 10px;
+}
+.act_content ul li{
+	list-style: none;
+}
+.foot{
+	height: 30px;
+	background:#A7A3A3;
+}
+.foot p {
+	font-size: 14px;
+	height: 30px;
+	color: #000;
+	font-family: "微软雅黑";
+	text-align: center;
+ 	line-height: 30px;
+}
